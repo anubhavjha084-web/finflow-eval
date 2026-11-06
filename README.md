@@ -5,13 +5,16 @@
 [![Grader: Deterministic](https://img.shields.io/badge/Grader-Deterministic%20(90%2F90%20Verified)-success.svg)](graders/grade_task.py)
 [![Zero-Cost Eval](https://img.shields.io/badge/Local%20Run-Standard%20Library%20($0)-brightgreen.svg)](run_eval.py)
 
-**FinFlow-Eval** is a deterministic evaluation benchmark designed to measure how effectively frontier Large Language Models (LLMs) solve forward-looking personal cash-flow, liquidity underwriting, and multi-constraint financial planning problems over a 90-day horizon.
+## 1. Short Description
+**FinFlow-Eval** is a deterministic evaluation benchmark designed to measure how effectively frontier Large Language Models (LLMs) solve forward-looking personal cash-flow, liquidity underwriting, and multi-constraint financial planning problems over a 90-day horizon. Across ten realistic multi-currency scenarios, OpenAI Codex (GPT-6 Luna) achieved a **10% pass rate** (1/10) with a mean rubric score of **0.471**, frequently failing at temporal conflict resolution, pending transaction accounting, and budget constraint enforcement.
 
-Answering a financial question like *"Can I safely afford this purchase today?"* requires reconciling complex, dated cash-flow records: forward recurring projections, pending authorization holds, cancelled charges, foreign exchange rates, debt repayments, and unstructured employer notices that override past income. 
-
-In our benchmark evaluation across ten realistic multi-currency scenarios, frontier models (including OpenAI Codex / GPT-6 Luna) achieved a **10% pass rate** (1/10) with a mean rubric score of **0.471**, frequently failing at temporal conflict resolution and budget constraint enforcement.
+## 2. Video Walkthrough Link
+* **Video Walkthrough URL**: [Insert your unlisted Loom / YouTube / Google Drive share link here]
+*(See the recording guide and word-for-word timed script in `.backup/VIDEO_WALKTHROUGH_SCRIPT.md`).*
 
 ---
+
+## 3. Overview & Motivation
 
 ## Key Highlights
 
@@ -152,6 +155,20 @@ finflow-eval/
 └── transcripts/
     └── *_transcripts.json         # Raw model completions and reasoning traces
 ```
+
+---
+
+## Prior Work & Data Provenance
+
+- **Prior Work:** This project builds upon an earlier algorithmic prototype (`FinDecision-v0`, located in `code/main.py`), which evaluated basic static cash balances without multi-day temporal simulation. FinFlow-Eval significantly expands this into a full 90-day forward simulator with date-anchored recurring cash flows, currency conversions, and natural language message parsing.
+- **Data Provenance:** All 10 packaged tasks and financial profiles use 100% synthetic data. They contain zero confidential employer, client, or personal financial information. All balances and transaction dates were synthesized specifically to test edge cases in forward liquidity modeling.
+
+---
+
+## AI Assistance & Human Review Disclosure
+
+- **AI Tools Used:** AI assistance was utilized to assist with drafting initial code structures, exploring scenario edge cases, and humanizing code comments and variable naming conventions.
+- **Human Verification:** All mathematical simulation rules, ground-truth answer keys, rubric weightings, and adversarial grader assertions were directly authored, reviewed, and validated by the author to ensure 100% deterministic reproducibility and domain correctness.
 
 ---
 
