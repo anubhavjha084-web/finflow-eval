@@ -1,0 +1,21 @@
+{
+  "task_id": "task_06",
+  "request_id": "request_11",
+  "expected_output": {
+    "request_id": "request_11",
+    "amount_safe_to_pay": 12429866.62,
+    "affordability_status": "affordable_with_plan",
+    "recommended_payment_method": "full_payment",
+    "payment_plan": "2025-05-03:13110000",
+    "earliest_date_for_full_payment": "2025-05-15",
+    "spending_changes_needed": "reduce_to:event_989:665950",
+    "decision_explanation": "Apply reduce_to:event_989:665950, then pay IDR 13,110,000.00; the daily balance stays above IDR 34,140,600.00."
+  },
+  "currency": "IDR",
+  "requested_amount": 13110000.0,
+  "minimum_balance_to_keep": 34140600.0,
+  "audit_trail": "Reproducible day-by-day replay from 2025-05-03 through 2025-08-01, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is IDR 46,570,466.62 on 2025-05-14; the protected floor is IDR 34,140,600.00, so immediate safe amount is IDR 12,429,866.62. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is IDR 34,144,539.17.",
+  "diagnostic_title": "Unapproved Pipeline Commission Exclusion & Minimum-Bound Expense Reduction",
+  "failure_mechanism_tested": "Models project historical monthly sales commissions (IDR 8.5M–20.0M on the 24th of each month) into the future despite message_08 explicitly stating that ongoing pipeline commissions are unapproved, or fail to compute the exact minimum-allowed reduction on dining (reduce_to:event_989:665950) required to pay in full today.",
+  "expertise_required": "Variable-income credit underwriting & constrained budget adjustments: separating confirmed base salary overrides from unvested commissions and respecting minimum_allowed_amount floors on reducible categories."
+}

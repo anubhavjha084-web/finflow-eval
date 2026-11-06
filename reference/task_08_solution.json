@@ -1,0 +1,21 @@
+{
+  "task_id": "task_08",
+  "request_id": "request_19",
+  "expected_output": {
+    "request_id": "request_19",
+    "amount_safe_to_pay": 30022.77,
+    "affordability_status": "affordable_with_plan",
+    "recommended_payment_method": "partial_payment",
+    "payment_plan": "2024-09-04:30022.77|2024-09-15:9637.23",
+    "earliest_date_for_full_payment": "2024-09-15",
+    "spending_changes_needed": "none",
+    "decision_explanation": "Pay INR 30,022.77 today and the remaining INR 9,637.23 on 2024-09-15; the daily balance stays above INR 92,800.00."
+  },
+  "currency": "INR",
+  "requested_amount": 39660.0,
+  "minimum_balance_to_keep": 92800.0,
+  "audit_trail": "Reproducible day-by-day replay from 2024-09-04 through 2024-12-03, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is INR 122,822.77 on 2024-09-14; the protected floor is INR 92,800.00, so immediate safe amount is INR 30,022.77. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is INR 92,800.00.",
+  "diagnostic_title": "Zero-Fee Two-Step Partial Payment Synthesis vs. Fee-Bearing Installments",
+  "failure_mechanism_tested": "Models either pick the 2-month installment option (payment_option_53, which incurs INR 1,586.40 in financing fees and finishes later on 2024-10-02) or recommend waiting, failing to synthesize the zero-fee 2-step partial_payment plan (INR 28,820 today + INR 10,840 on payday 2024-09-15).",
+  "expertise_required": "Payment structuring & cost minimization: synthesizing a custom two-tranche split across a payroll boundary that dominates fee-bearing merchant installments."
+}

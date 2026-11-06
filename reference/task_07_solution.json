@@ -1,0 +1,21 @@
+{
+  "task_id": "task_07",
+  "request_id": "request_12",
+  "expected_output": {
+    "request_id": "request_12",
+    "amount_safe_to_pay": 65164.0,
+    "affordability_status": "affordable_with_plan",
+    "recommended_payment_method": "installments",
+    "payment_plan": "2026-04-19:22590.19|2026-05-20:22590.19|2026-06-20:22590.19",
+    "earliest_date_for_full_payment": "2026-04-05",
+    "spending_changes_needed": "none",
+    "decision_explanation": "Use 3 installments of ZAR 22,590.19; the daily balance stays above ZAR 43,200.00."
+  },
+  "currency": "ZAR",
+  "requested_amount": 65164.0,
+  "minimum_balance_to_keep": 43200.0,
+  "audit_trail": "Reproducible day-by-day replay from 2026-04-05 through 2026-07-04, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is ZAR 111,070.23 on 2026-07-01; the protected floor is ZAR 43,200.00, so immediate safe amount is ZAR 65,164.00. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is ZAR 43,299.66.",
+  "diagnostic_title": "Seasonal Contract Termination & Preference-Constrained Installment Selection",
+  "failure_mechanism_tested": "Models see that amount_safe_to_pay (ZAR 65,164) equals requested_amount (ZAR 65,164) and immediately output affordable_now + full_payment, violating payment_methods_user_will_consider ('partial_payment|installments'), or fail to account for message_09 terminating all seasonal contract income over the 90-day window.",
+  "expertise_required": "Policy-compliant financial advisory: enforcing hard client payment-method constraints even when cash liquidity permits lump-sum payment, while projecting zero-income runway after contract expiration."
+}

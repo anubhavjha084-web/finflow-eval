@@ -1,0 +1,5 @@
+# FinFlow-Eval uses only the Python 3.10+ standard library for core task loading,
+# deterministic grading, grader validation, and REST API calls (urllib.request).
+# Optional packages below are used only if running pytest or notebook analysis:
+pytest>=7.4.0
+python-dotenv>=1.0.0

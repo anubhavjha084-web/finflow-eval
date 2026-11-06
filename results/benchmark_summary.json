@@ -1,0 +1,976 @@
+{
+  "generated_at_utc": "2026-11-05T19:33:51Z",
+  "grader_validation": {
+    "total_tests": 90,
+    "passed_tests": 90,
+    "failed_tests": 0
+  },
+  "systems": [
+    {
+      "benchmark": "FinFlow-Eval v1.0",
+      "system_id": "oracle_reference",
+      "system_type": "reference_solver",
+      "model_version": "solve_reference.py (v1.1 daily-simulator self-consistency check)",
+      "settings": {
+        "temperature": 0.0,
+        "deterministic": true
+      },
+      "timestamp_utc": "2026-11-05T19:33:51Z",
+      "num_tasks": 10,
+      "trials_per_task": 1,
+      "total_trials": 10,
+      "total_passed_trials": 10,
+      "aggregate_metrics": {
+        "overall_pass_rate": 1.0,
+        "mean_rubric_score": 1.0,
+        "mean_pass_at_1": 1.0,
+        "mean_pass_at_k": 1.0,
+        "mean_pass_hat_k": 1.0
+      },
+      "runtime_seconds": 0.0897,
+      "estimated_total_cost_usd": 0.0,
+      "per_task_results": [
+        {
+          "task_id": "task_01",
+          "request_id": "request_01",
+          "title": "Laptop Purchase Liquidity Audit (ZAR)",
+          "difficulty": "Medium",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_02",
+          "request_id": "request_02",
+          "title": "Travel Quote Financing Assessment (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_03",
+          "request_id": "request_04",
+          "title": "Family Transfer Cash-Flow Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_04",
+          "request_id": "request_06",
+          "title": "Investment Contribution Liquidity Check (EUR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_05",
+          "request_id": "request_07",
+          "title": "Rental Deposit Affordability Evaluation (INR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_06",
+          "request_id": "request_11",
+          "title": "Family Trip Cash-Flow & Budget Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_07",
+          "request_id": "request_12",
+          "title": "Professional Course Enrolment Audit (ZAR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_08",
+          "request_id": "request_19",
+          "title": "Laptop Quote Payment Structuring (INR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_09",
+          "request_id": "request_21",
+          "title": "Course Fee Liquidity & Budget Evaluation (USD)",
+          "difficulty": "Very Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_10",
+          "request_id": "request_25",
+          "title": "Housing Deposit Multi-Currency Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "benchmark": "FinFlow-Eval v1.0",
+      "system_id": "rolling_mean_no_override_agent",
+      "system_type": "partial_simulation_baseline",
+      "model_version": "RollingMean-90D-v1 (90-day ledger simulator without NL message overrides)",
+      "settings": {
+        "temperature": 0.0,
+        "deterministic": true
+      },
+      "timestamp_utc": "2026-11-05T19:33:51Z",
+      "num_tasks": 10,
+      "trials_per_task": 3,
+      "total_trials": 30,
+      "total_passed_trials": 15,
+      "aggregate_metrics": {
+        "overall_pass_rate": 0.5,
+        "mean_rubric_score": 0.748,
+        "mean_pass_at_1": 0.5,
+        "mean_pass_at_k": 0.5,
+        "mean_pass_hat_k": 0.5
+      },
+      "runtime_seconds": 0.4127,
+      "estimated_total_cost_usd": 0.0,
+      "per_task_results": [
+        {
+          "task_id": "task_01",
+          "request_id": "request_01",
+          "title": "Laptop Purchase Liquidity Audit (ZAR)",
+          "difficulty": "Medium",
+          "trials": 3,
+          "trials_passed": 3,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_02",
+          "request_id": "request_02",
+          "title": "Travel Quote Financing Assessment (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.5,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "affordability_status 'not_affordable' != expected 'affordable_with_plan'.; recommended_payment_method 'not_recommended' != expected 'installments'.; payment_plan 'none' != expected '2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67'.; earliest_date_for_full_payment '2025-10-15' != expected '2025-09-15'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_03",
+          "request_id": "request_04",
+          "title": "Family Transfer Cash-Flow Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 3,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_04",
+          "request_id": "request_06",
+          "title": "Investment Contribution Liquidity Check (EUR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.425,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "affordability_status 'affordable_later' != expected 'affordable_with_plan'.; recommended_payment_method 'wait' != expected 'full_payment'.; payment_plan '2026-01-15:620.40' != expected '2026-01-03:620.40'.; spending_changes_needed 'none' != expected 'stop:event_476'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.3,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_05",
+          "request_id": "request_07",
+          "title": "Rental Deposit Affordability Evaluation (INR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 3,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_06",
+          "request_id": "request_11",
+          "title": "Family Trip Cash-Flow & Budget Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.425,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "affordability_status 'affordable_later' != expected 'affordable_with_plan'.; recommended_payment_method 'wait' != expected 'full_payment'.; payment_plan '2025-05-15:13110000' != expected '2025-05-03:13110000'.; spending_changes_needed 'none' != expected 'reduce_to:event_989:665950'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.3,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_07",
+          "request_id": "request_12",
+          "title": "Professional Course Enrolment Audit (ZAR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 3,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_08",
+          "request_id": "request_19",
+          "title": "Laptop Quote Payment Structuring (INR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.745,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "recommended_payment_method 'installments' != expected 'partial_payment'.; payment_plan '2024-09-04:20623.20|2024-10-02:20623.20' != expected '2024-09-04:30022.77|2024-09-15:9637.23'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.3,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_09",
+          "request_id": "request_21",
+          "title": "Course Fee Liquidity & Budget Evaluation (USD)",
+          "difficulty": "Very Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.385,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (1574.4) far from expected 1543.35 (error=31.05).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2026-04-03' != expected '2026-04-15'.; spending_changes_needed 'none' != expected 'stop:event_1815|reduce_to:event_1816:23.50'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_10",
+          "request_id": "request_25",
+          "title": "Housing Deposit Multi-Currency Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 3,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "benchmark": "FinFlow-Eval v1.0",
+      "system_id": "naive_ledger_baseline",
+      "system_type": "heuristic_baseline",
+      "model_version": "FinDecision-v0 (code/main.py static balance heuristic)",
+      "settings": {
+        "temperature": 0.0,
+        "deterministic": true,
+        "source": "code/main.py"
+      },
+      "timestamp_utc": "2026-11-05T19:33:51Z",
+      "num_tasks": 10,
+      "trials_per_task": 3,
+      "total_trials": 30,
+      "total_passed_trials": 6,
+      "aggregate_metrics": {
+        "overall_pass_rate": 0.2,
+        "mean_rubric_score": 0.6015,
+        "mean_pass_at_1": 0.2,
+        "mean_pass_at_k": 0.2,
+        "mean_pass_hat_k": 0.2
+      },
+      "runtime_seconds": 0.0262,
+      "estimated_total_cost_usd": 0.0,
+      "per_task_results": [
+        {
+          "task_id": "task_01",
+          "request_id": "request_01",
+          "title": "Laptop Purchase Liquidity Audit (ZAR)",
+          "difficulty": "Medium",
+          "trials": 3,
+          "trials_passed": 3,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_02",
+          "request_id": "request_02",
+          "title": "Travel Quote Financing Assessment (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.705,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (31225489.2) far from expected 18336765.49 (error=12888723.71).; earliest_date_for_full_payment '' != expected '2025-09-15'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_03",
+          "request_id": "request_04",
+          "title": "Family Transfer Cash-Flow Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.25,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (12693000.0) far from expected 10609286.07 (error=2083713.93).; affordability_status 'affordable_now' != expected 'affordable_later'.; recommended_payment_method 'full_payment' != expected 'wait'.; payment_plan '2024-06-04:1.2693e+07' != expected '2024-06-15:12693000'.; earliest_date_for_full_payment '2024-06-04' != expected '2024-06-15'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_04",
+          "request_id": "request_06",
+          "title": "Investment Contribution Liquidity Check (EUR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.385,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (620.4) far from expected 603.82 (error=16.58).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2026-01-03' != expected '2026-01-15'.; spending_changes_needed 'none' != expected 'stop:event_476'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_05",
+          "request_id": "request_07",
+          "title": "Rental Deposit Affordability Evaluation (INR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.705,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (125945.56) far from expected 86237.22 (error=39708.34).; earliest_date_for_full_payment '' != expected '2024-10-23'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_06",
+          "request_id": "request_11",
+          "title": "Family Trip Cash-Flow & Budget Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.385,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (13110000.0) far from expected 12429866.62 (error=680133.38).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2025-05-03' != expected '2025-05-15'.; spending_changes_needed 'none' != expected 'reduce_to:event_989:665950'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_07",
+          "request_id": "request_12",
+          "title": "Professional Course Enrolment Audit (ZAR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 3,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_08",
+          "request_id": "request_19",
+          "title": "Laptop Quote Payment Structuring (INR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.45,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (39660.0) far from expected 30022.77 (error=9637.23).; recommended_payment_method 'installments' != expected 'partial_payment'.; payment_plan '2024-09-04:20623.2|2024-10-02:20623.2' != expected '2024-09-04:30022.77|2024-09-15:9637.23'.; earliest_date_for_full_payment '2024-09-04' != expected '2024-09-15'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_09",
+          "request_id": "request_21",
+          "title": "Course Fee Liquidity & Budget Evaluation (USD)",
+          "difficulty": "Very Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.385,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (1574.4) far from expected 1543.35 (error=31.05).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2026-04-03' != expected '2026-04-15'.; spending_changes_needed 'none' != expected 'stop:event_1815|reduce_to:event_1816:23.50'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_10",
+          "request_id": "request_25",
+          "title": "Housing Deposit Multi-Currency Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 3,
+          "trials_passed": 0,
+          "mean_score": 0.75,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (8683950.0) far from expected 376083.4 (error=8307866.60).",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "benchmark": "FinFlow-Eval v1.0",
+      "system_id": "codex_gpt-6-luna",
+      "system_type": "chatgpt_plan_codex_cli",
+      "model_version": "gpt-6-luna via codex-cli 0.166.0-alpha.5.1",
+      "settings": {
+        "route": "Codex CLI signed in with ChatGPT; no API key",
+        "model": "gpt-6-luna",
+        "reasoning_effort": "low",
+        "temperature": "Codex CLI default; not exposed by this runner",
+        "trials_per_task": 1,
+        "cost_note": "Uses ChatGPT/Codex plan allowance; no API dollar-cost telemetry."
+      },
+      "timestamp_utc": "2026-11-03T21:33:10Z",
+      "num_tasks": 10,
+      "trials_per_task": 1,
+      "total_trials": 10,
+      "total_passed_trials": 1,
+      "aggregate_metrics": {
+        "overall_pass_rate": 0.1,
+        "mean_rubric_score": 0.471,
+        "mean_pass_at_1": 0.1,
+        "mean_pass_at_k": 0.1,
+        "mean_pass_hat_k": 0.1
+      },
+      "runtime_seconds": 132.0952,
+      "estimated_total_cost_usd": 0.0,
+      "per_task_results": [
+        {
+          "task_id": "task_01",
+          "request_id": "request_01",
+          "title": "Laptop Purchase Liquidity Audit (ZAR)",
+          "difficulty": "Medium",
+          "trials": 1,
+          "trials_passed": 1,
+          "mean_score": 1.0,
+          "pass_at_1": 1.0,
+          "pass_at_k": 1.0,
+          "pass_hat_k": 1.0,
+          "primary_error": null,
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 1.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 1.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_02",
+          "request_id": "request_02",
+          "title": "Travel Quote Financing Assessment (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.705,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (0.0) far from expected 18336765.49 (error=18336765.49).; earliest_date_for_full_payment '2025-08-15' != expected '2025-09-15'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_03",
+          "request_id": "request_04",
+          "title": "Family Transfer Cash-Flow Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.645,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (2620337.0) far from expected 10609286.07 (error=7988949.07).; payment_plan 'none' != expected '2024-06-15:12693000'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.3,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_04",
+          "request_id": "request_06",
+          "title": "Investment Contribution Liquidity Check (EUR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.385,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (620.4) far from expected 603.82 (error=16.58).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2026-01-03' != expected '2026-01-15'.; spending_changes_needed 'none' != expected 'stop:event_476'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_05",
+          "request_id": "request_07",
+          "title": "Rental Deposit Affordability Evaluation (INR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.25,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (0.0) far from expected 86237.22 (error=86237.22).; affordability_status 'affordable_later' != expected 'affordable_with_plan'.; recommended_payment_method 'wait' != expected 'installments'.; payment_plan '2024-09-23:197400' != expected '2024-09-12:68432|2024-10-10:68432|2024-11-07:68432'.; earliest_date_for_full_payment '2024-09-23' != expected '2024-10-23'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_06",
+          "request_id": "request_11",
+          "title": "Family Trip Cash-Flow & Budget Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.385,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (13110000.0) far from expected 12429866.62 (error=680133.38).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2025-05-03' != expected '2025-05-15'.; spending_changes_needed 'none' != expected 'reduce_to:event_989:665950'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_07",
+          "request_id": "request_12",
+          "title": "Professional Course Enrolment Audit (ZAR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.25,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (0.0) far from expected 65164.0 (error=65164.00).; affordability_status 'not_affordable' != expected 'affordable_with_plan'.; recommended_payment_method 'not_recommended' != expected 'installments'.; payment_plan 'none' != expected '2026-04-19:22590.19|2026-05-20:22590.19|2026-06-20:22590.19'.; earliest_date_for_full_payment '' != expected '2026-04-05'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_08",
+          "request_id": "request_19",
+          "title": "Laptop Quote Payment Structuring (INR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.45,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (0.0) far from expected 30022.77 (error=30022.77).; recommended_payment_method 'installments' != expected 'partial_payment'.; payment_plan '2024-09-04:20623.2|2024-10-02:20623.2' != expected '2024-09-04:30022.77|2024-09-15:9637.23'.; earliest_date_for_full_payment '2024-09-04' != expected '2024-09-15'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 1.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.0,
+            "spending_changes_and_explanation": 1.0
+          }
+        },
+        {
+          "task_id": "task_09",
+          "request_id": "request_21",
+          "title": "Course Fee Liquidity & Budget Evaluation (USD)",
+          "difficulty": "Very Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.285,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "Boundary invariant violated: amount_safe_to_pay (2058.35) outside [0, 1574.4].; amount_safe_to_pay (2058.35) far from expected 1543.35 (error=515.00).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2026-04-03' != expected '2026-04-15'.; spending_changes_needed 'none' != expected 'stop:event_1815|reduce_to:event_1816:23.50'.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 0.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 1.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 0.2
+          }
+        },
+        {
+          "task_id": "task_10",
+          "request_id": "request_25",
+          "title": "Housing Deposit Multi-Currency Audit (IDR)",
+          "difficulty": "Hard",
+          "trials": 1,
+          "trials_passed": 0,
+          "mean_score": 0.355,
+          "pass_at_1": 0.0,
+          "pass_at_k": 0.0,
+          "pass_hat_k": 0.0,
+          "primary_error": "amount_safe_to_pay (2083890.25) far from expected 376083.4 (error=1707806.85).; affordability_status 'affordable_later' != expected 'not_affordable'.; recommended_payment_method 'wait' != expected 'not_recommended'.; earliest_date_for_full_payment '2024-04-15' != expected ''.",
+          "subscores_trial_1": {
+            "schema_and_anti_gaming": 1.0,
+            "amount_safe_to_pay": 0.0,
+            "affordability_status": 0.0,
+            "recommended_payment_method": 0.0,
+            "payment_plan_and_dates": 0.7,
+            "spending_changes_and_explanation": 1.0
+          }
+        }
+      ],
+      "grader_validation": {
+        "total_tests": 90,
+        "passed_tests": 90,
+        "failed_tests": 0
+      },
+      "previous_scoring": {
+        "overall_pass_rate": 0.1,
+        "mean_rubric_score": 0.471,
+        "total_passed_trials": 1
+      },
+      "score_revision": {
+        "revised_at_utc": "2026-11-04T13:22:37Z",
+        "reason": "Reference answers were replaced with daily-ledger simulation outputs. Stored model_raw_output values were regraded; the model was not rerun.",
+        "old_passed_trials": 1,
+        "old_mean_rubric_score": 0.471
+      },
+      "reference_version": "v1.1 daily-ledger simulator; deterministic synthetic forecast convention"
+    }
+  ]
+}

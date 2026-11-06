@@ -1,0 +1,236 @@
+{
+  "benchmark": "FinFlow-Eval v1.0",
+  "system_id": "rolling_mean_no_override_agent",
+  "system_type": "partial_simulation_baseline",
+  "model_version": "RollingMean-90D-v1 (90-day ledger simulator without NL message overrides)",
+  "settings": {
+    "temperature": 0.0,
+    "deterministic": true
+  },
+  "timestamp_utc": "2026-11-05T19:33:51Z",
+  "num_tasks": 10,
+  "trials_per_task": 3,
+  "total_trials": 30,
+  "total_passed_trials": 15,
+  "aggregate_metrics": {
+    "overall_pass_rate": 0.5,
+    "mean_rubric_score": 0.748,
+    "mean_pass_at_1": 0.5,
+    "mean_pass_at_k": 0.5,
+    "mean_pass_hat_k": 0.5
+  },
+  "runtime_seconds": 0.4127,
+  "estimated_total_cost_usd": 0.0,
+  "per_task_results": [
+    {
+      "task_id": "task_01",
+      "request_id": "request_01",
+      "title": "Laptop Purchase Liquidity Audit (ZAR)",
+      "difficulty": "Medium",
+      "trials": 3,
+      "trials_passed": 3,
+      "mean_score": 1.0,
+      "pass_at_1": 1.0,
+      "pass_at_k": 1.0,
+      "pass_hat_k": 1.0,
+      "primary_error": null,
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 1.0,
+        "recommended_payment_method": 1.0,
+        "payment_plan_and_dates": 1.0,
+        "spending_changes_and_explanation": 1.0
+      }
+    },
+    {
+      "task_id": "task_02",
+      "request_id": "request_02",
+      "title": "Travel Quote Financing Assessment (IDR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 0,
+      "mean_score": 0.5,
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "pass_hat_k": 0.0,
+      "primary_error": "affordability_status 'not_affordable' != expected 'affordable_with_plan'.; recommended_payment_method 'not_recommended' != expected 'installments'.; payment_plan 'none' != expected '2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67'.; earliest_date_for_full_payment '2025-10-15' != expected '2025-09-15'.",
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 0.0,
+        "recommended_payment_method": 0.0,
+        "payment_plan_and_dates": 0.0,
+        "spending_changes_and_explanation": 1.0
+      }
+    },
+    {
+      "task_id": "task_03",
+      "request_id": "request_04",
+      "title": "Family Transfer Cash-Flow Audit (IDR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 3,
+      "mean_score": 1.0,
+      "pass_at_1": 1.0,
+      "pass_at_k": 1.0,
+      "pass_hat_k": 1.0,
+      "primary_error": null,
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 1.0,
+        "recommended_payment_method": 1.0,
+        "payment_plan_and_dates": 1.0,
+        "spending_changes_and_explanation": 1.0
+      }
+    },
+    {
+      "task_id": "task_04",
+      "request_id": "request_06",
+      "title": "Investment Contribution Liquidity Check (EUR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 0,
+      "mean_score": 0.425,
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "pass_hat_k": 0.0,
+      "primary_error": "affordability_status 'affordable_later' != expected 'affordable_with_plan'.; recommended_payment_method 'wait' != expected 'full_payment'.; payment_plan '2026-01-15:620.40' != expected '2026-01-03:620.40'.; spending_changes_needed 'none' != expected 'stop:event_476'.",
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 0.0,
+        "recommended_payment_method": 0.0,
+        "payment_plan_and_dates": 0.3,
+        "spending_changes_and_explanation": 0.2
+      }
+    },
+    {
+      "task_id": "task_05",
+      "request_id": "request_07",
+      "title": "Rental Deposit Affordability Evaluation (INR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 3,
+      "mean_score": 1.0,
+      "pass_at_1": 1.0,
+      "pass_at_k": 1.0,
+      "pass_hat_k": 1.0,
+      "primary_error": null,
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 1.0,
+        "recommended_payment_method": 1.0,
+        "payment_plan_and_dates": 1.0,
+        "spending_changes_and_explanation": 1.0
+      }
+    },
+    {
+      "task_id": "task_06",
+      "request_id": "request_11",
+      "title": "Family Trip Cash-Flow & Budget Audit (IDR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 0,
+      "mean_score": 0.425,
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "pass_hat_k": 0.0,
+      "primary_error": "affordability_status 'affordable_later' != expected 'affordable_with_plan'.; recommended_payment_method 'wait' != expected 'full_payment'.; payment_plan '2025-05-15:13110000' != expected '2025-05-03:13110000'.; spending_changes_needed 'none' != expected 'reduce_to:event_989:665950'.",
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 0.0,
+        "recommended_payment_method": 0.0,
+        "payment_plan_and_dates": 0.3,
+        "spending_changes_and_explanation": 0.2
+      }
+    },
+    {
+      "task_id": "task_07",
+      "request_id": "request_12",
+      "title": "Professional Course Enrolment Audit (ZAR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 3,
+      "mean_score": 1.0,
+      "pass_at_1": 1.0,
+      "pass_at_k": 1.0,
+      "pass_hat_k": 1.0,
+      "primary_error": null,
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 1.0,
+        "recommended_payment_method": 1.0,
+        "payment_plan_and_dates": 1.0,
+        "spending_changes_and_explanation": 1.0
+      }
+    },
+    {
+      "task_id": "task_08",
+      "request_id": "request_19",
+      "title": "Laptop Quote Payment Structuring (INR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 0,
+      "mean_score": 0.745,
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "pass_hat_k": 0.0,
+      "primary_error": "recommended_payment_method 'installments' != expected 'partial_payment'.; payment_plan '2024-09-04:20623.20|2024-10-02:20623.20' != expected '2024-09-04:30022.77|2024-09-15:9637.23'.",
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 1.0,
+        "recommended_payment_method": 0.0,
+        "payment_plan_and_dates": 0.3,
+        "spending_changes_and_explanation": 1.0
+      }
+    },
+    {
+      "task_id": "task_09",
+      "request_id": "request_21",
+      "title": "Course Fee Liquidity & Budget Evaluation (USD)",
+      "difficulty": "Very Hard",
+      "trials": 3,
+      "trials_passed": 0,
+      "mean_score": 0.385,
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "pass_hat_k": 0.0,
+      "primary_error": "amount_safe_to_pay (1574.4) far from expected 1543.35 (error=31.05).; affordability_status 'affordable_now' != expected 'affordable_with_plan'.; earliest_date_for_full_payment '2026-04-03' != expected '2026-04-15'.; spending_changes_needed 'none' != expected 'stop:event_1815|reduce_to:event_1816:23.50'.",
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 0.0,
+        "affordability_status": 0.0,
+        "recommended_payment_method": 1.0,
+        "payment_plan_and_dates": 0.7,
+        "spending_changes_and_explanation": 0.2
+      }
+    },
+    {
+      "task_id": "task_10",
+      "request_id": "request_25",
+      "title": "Housing Deposit Multi-Currency Audit (IDR)",
+      "difficulty": "Hard",
+      "trials": 3,
+      "trials_passed": 3,
+      "mean_score": 1.0,
+      "pass_at_1": 1.0,
+      "pass_at_k": 1.0,
+      "pass_hat_k": 1.0,
+      "primary_error": null,
+      "subscores_trial_1": {
+        "schema_and_anti_gaming": 1.0,
+        "amount_safe_to_pay": 1.0,
+        "affordability_status": 1.0,
+        "recommended_payment_method": 1.0,
+        "payment_plan_and_dates": 1.0,
+        "spending_changes_and_explanation": 1.0
+      }
+    }
+  ]
+}

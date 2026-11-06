@@ -1,0 +1,21 @@
+{
+  "task_id": "task_01",
+  "request_id": "request_01",
+  "expected_output": {
+    "request_id": "request_01",
+    "amount_safe_to_pay": 25256.0,
+    "affordability_status": "affordable_now",
+    "recommended_payment_method": "full_payment",
+    "payment_plan": "2024-03-03:25256",
+    "earliest_date_for_full_payment": "2024-03-03",
+    "spending_changes_needed": "none",
+    "decision_explanation": "Pay ZAR 25,256.00 today; the daily 90-day projection keeps the balance at or above ZAR 18,000.00."
+  },
+  "currency": "ZAR",
+  "requested_amount": 25256.0,
+  "minimum_balance_to_keep": 18000.0,
+  "audit_trail": "Reproducible day-by-day replay from 2024-03-03 through 2024-06-01, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is ZAR 48,241.27 on 2024-03-13; the protected floor is ZAR 18,000.00, so immediate safe amount is ZAR 25,256.00. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is ZAR 22,985.27.",
+  "diagnostic_title": "Cancelled Authorization vs. Pending Fuel Hold in 90-Day Liquidity Audit",
+  "failure_mechanism_tested": "Models frequently conflate 'cancelled' card authorizations (event_100, ZAR 816.20) with active 'pending' charges (event_102, ZAR 567.60), or extrapolate a prorated first salary (event_25, ZAR 12,826) instead of using the scheduled confirmed full salary (event_103, ZAR 23,320).",
+  "expertise_required": "Consumer credit & treasury cash-flow auditing: distinguishing authorization lifecycle states (settled, pending, scheduled, cancelled) and recognizing when a scheduled payroll record supersedes a prorated onboarding payment."
+}

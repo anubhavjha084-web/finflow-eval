@@ -1,0 +1,21 @@
+{
+  "task_id": "task_03",
+  "request_id": "request_04",
+  "expected_output": {
+    "request_id": "request_04",
+    "amount_safe_to_pay": 10609286.07,
+    "affordability_status": "affordable_later",
+    "recommended_payment_method": "wait",
+    "payment_plan": "2024-06-15:12693000",
+    "earliest_date_for_full_payment": "2024-06-15",
+    "spending_changes_needed": "none",
+    "decision_explanation": "Wait until 2024-06-15 to pay IDR 12,693,000.00; the daily balance then stays above IDR 30,686,600.00."
+  },
+  "currency": "IDR",
+  "requested_amount": 12693000.0,
+  "minimum_balance_to_keep": 30686600.0,
+  "audit_trail": "Reproducible day-by-day replay from 2024-06-04 through 2024-09-02, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is IDR 41,295,886.07 on 2024-06-13; the protected floor is IDR 30,686,600.00, so immediate safe amount is IDR 10,609,286.07. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is IDR 34,216,559.51.",
+  "diagnostic_title": "Unconfirmed Performance Bonus Trap & Deferred Full Payment",
+  "failure_mechanism_tested": "Models treat historical quarterly bonus event_270 (IDR 10,498,464.28) as recurring or prematurely credit the unapproved bonus mentioned in message_03 ('masih menunggu hasil akhir penilaian kinerja... belum disetujui'), falsely approving immediate payment before the scheduled school fee (event_357, IDR 1,704,300).",
+  "expertise_required": "Conservative underwriting standards: excluding contingent/unapproved compensation and non-recurring windfalls while accounting for scheduled near-term liabilities."
+}

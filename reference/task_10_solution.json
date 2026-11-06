@@ -1,0 +1,21 @@
+{
+  "task_id": "task_10",
+  "request_id": "request_25",
+  "expected_output": {
+    "request_id": "request_25",
+    "amount_safe_to_pay": 376083.4,
+    "affordability_status": "not_affordable",
+    "recommended_payment_method": "not_recommended",
+    "payment_plan": "none",
+    "earliest_date_for_full_payment": "",
+    "spending_changes_needed": "none",
+    "decision_explanation": "None of the allowed payment choices keeps the daily balance above IDR 23,379,100.00 over the 90-day window."
+  },
+  "currency": "IDR",
+  "requested_amount": 60496000.0,
+  "minimum_balance_to_keep": 23379100.0,
+  "audit_trail": "Reproducible day-by-day replay from 2024-03-06 through 2024-06-04, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is IDR 23,755,183.40 on 2024-03-14; the protected floor is IDR 23,379,100.00, so immediate safe amount is IDR 376,083.40. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is IDR 23,755,183.40.",
+  "diagnostic_title": "Cross-Currency USD-to-IDR Payroll Conversion & Failed Debit Exclusion",
+  "failure_mechanism_tested": "Models either fail to convert the USD 1,800.00 scheduled salary (event_2288) into home currency IDR using exchange_rates.csv (rate 15,833.33 -> IDR 28,499,994), erroneously deduct the failed utility debit (event_2287, IDR 1,246,400), or hallucinate an installment plan that violates the user's IDR 23,379,100 minimum floor.",
+  "expertise_required": "Cross-border treasury reconciliation: applying exact FX conversion rates by settlement date, filtering failed payment rails, and proving multi-option infeasibility across a 90-day horizon."
+}

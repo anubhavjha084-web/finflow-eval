@@ -1,0 +1,21 @@
+{
+  "task_id": "task_09",
+  "request_id": "request_21",
+  "expected_output": {
+    "request_id": "request_21",
+    "amount_safe_to_pay": 1543.35,
+    "affordability_status": "affordable_with_plan",
+    "recommended_payment_method": "full_payment",
+    "payment_plan": "2026-04-03:1574.40",
+    "earliest_date_for_full_payment": "2026-04-15",
+    "spending_changes_needed": "stop:event_1815|reduce_to:event_1816:23.50",
+    "decision_explanation": "Apply stop:event_1815 and reduce_to:event_1816:23.50, then pay USD 1,574.40; the daily balance stays above USD 1,800.00."
+  },
+  "currency": "USD",
+  "requested_amount": 1574.4,
+  "minimum_balance_to_keep": 1800.0,
+  "audit_trail": "Reproducible day-by-day replay from 2026-04-03 through 2026-07-02, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is USD 3,343.35 on 2026-04-12; the protected floor is USD 1,800.00, so immediate safe amount is USD 1,543.35. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is USD 1,803.45.",
+  "diagnostic_title": "Unrealized Portfolio Valuation Trap & Compound Multi-Event Budget Cut",
+  "failure_mechanism_tested": "Models treat the unrealized portfolio valuation (event_1856, USD 270.72, direction='non_cash', status='unrealized') as spendable cash—falsely predicting affordable_now—or fail to combine BOTH a subscription stop (stop:event_1815) and a partial subscription reduction (reduce_to:event_1816:23.50) to bridge the USD 31.05 pre-payday shortfall.",
+  "expertise_required": "GAAP/cash-basis liquidity accounting & combinatorial budget optimization: excluding unrealized mark-to-market valuations, accounting for pending authorizations, and chaining stop + reduce actions in priority order."
+}

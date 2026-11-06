@@ -1,0 +1,517 @@
+{
+  "total_tests": 90,
+  "passed_tests": 90,
+  "failed_tests": 0,
+  "task_validations": [
+    {
+      "task_id": "task_01",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.75
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_02",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.4
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_03",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.4
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_04",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.43
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_05",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.4
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_06",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.43
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_07",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_08",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.4
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_09",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.43
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    },
+    {
+      "task_id": "task_10",
+      "all_checks_passed": true,
+      "cases": [
+        {
+          "test_name": "positive_exact_reference",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "positive_fenced_and_reordered",
+          "assertion_passed": true,
+          "grader_score": 1.0
+        },
+        {
+          "test_name": "negative_naive_or_cancelled_trap",
+          "assertion_passed": true,
+          "grader_score": 0.4
+        },
+        {
+          "test_name": "negative_wrong_status",
+          "assertion_passed": true,
+          "grader_score": 0.8
+        },
+        {
+          "test_name": "negative_out_of_bounds_amount",
+          "assertion_passed": true,
+          "grader_score": 0.65
+        },
+        {
+          "test_name": "negative_anti_gaming_multi_json",
+          "assertion_passed": true,
+          "grader_score": 0.0
+        },
+        {
+          "test_name": "negative_wrong_spending_changes",
+          "assertion_passed": true,
+          "grader_score": 0.88
+        },
+        {
+          "test_name": "negative_disallowed_extra_keys",
+          "assertion_passed": true,
+          "grader_score": 0.9
+        },
+        {
+          "test_name": "negative_ungrounded_explanation",
+          "assertion_passed": true,
+          "grader_score": 0.97
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "task_id": "task_01",
+    "request_id": "request_01",
+    "user_id": "user_01",
+    "currency": "ZAR",
+    "title": "Laptop Purchase Liquidity Audit (ZAR)",
+    "category": "Transaction Lifecycle Filtering & Prorated Salary Baselines",
+    "difficulty": "Medium",
+    "diagnostic_title": "Cancelled Authorization vs. Pending Fuel Hold in 90-Day Liquidity Audit"
+  },
+  {
+    "task_id": "task_02",
+    "request_id": "request_02",
+    "user_id": "user_02",
+    "currency": "IDR",
+    "title": "Travel Quote Financing Assessment (IDR)",
+    "category": "Cross-Lingual Asynchronous State Override & Constrained Optimization",
+    "difficulty": "Hard",
+    "diagnostic_title": "Multilingual Payroll Raise Override & Installment Horizon Constraint"
+  },
+  {
+    "task_id": "task_03",
+    "request_id": "request_04",
+    "user_id": "user_04",
+    "currency": "IDR",
+    "title": "Family Transfer Cash-Flow Audit (IDR)",
+    "category": "Epistemic Uncertainty Filtering & Liquidity Timing",
+    "difficulty": "Hard",
+    "diagnostic_title": "Unconfirmed Performance Bonus Trap & Deferred Full Payment"
+  },
+  {
+    "task_id": "task_04",
+    "request_id": "request_06",
+    "user_id": "user_06",
+    "currency": "EUR",
+    "title": "Investment Contribution Liquidity Check (EUR)",
+    "category": "Budget Optimization & Discretionary Expense Stopping",
+    "difficulty": "Hard",
+    "diagnostic_title": "Temporary Payroll Reduction & Single Subscription Cancellation"
+  },
+  {
+    "task_id": "task_05",
+    "request_id": "request_07",
+    "user_id": "user_07",
+    "currency": "INR",
+    "title": "Rental Deposit Affordability Evaluation (INR)",
+    "category": "Temporal Schedule Shift & Liquidity Trough Detection",
+    "difficulty": "Hard",
+    "diagnostic_title": "Employer Payday Shift (15th to 23rd) & Installment Cash-Flow Smoothing"
+  },
+  {
+    "task_id": "task_06",
+    "request_id": "request_11",
+    "user_id": "user_11",
+    "currency": "IDR",
+    "title": "Family Trip Cash-Flow & Budget Audit (IDR)",
+    "category": "Variable Compensation Filtering & Constrained Expense Reduction",
+    "difficulty": "Hard",
+    "diagnostic_title": "Unapproved Pipeline Commission Exclusion & Minimum-Bound Expense Reduction"
+  },
+  {
+    "task_id": "task_07",
+    "request_id": "request_12",
+    "user_id": "user_12",
+    "currency": "ZAR",
+    "title": "Professional Course Enrolment Audit (ZAR)",
+    "category": "Income Termination Horizon & User Preference Enforcement",
+    "difficulty": "Hard",
+    "diagnostic_title": "Seasonal Contract Termination & Preference-Constrained Installment Selection"
+  },
+  {
+    "task_id": "task_08",
+    "request_id": "request_19",
+    "user_id": "user_19",
+    "currency": "INR",
+    "title": "Laptop Quote Payment Structuring (INR)",
+    "category": "Multi-Step Payment Plan Synthesis & Lexicographical Plan Ranking",
+    "difficulty": "Hard",
+    "diagnostic_title": "Zero-Fee Two-Step Partial Payment Synthesis vs. Fee-Bearing Installments"
+  },
+  {
+    "task_id": "task_09",
+    "request_id": "request_21",
+    "user_id": "user_21",
+    "currency": "USD",
+    "title": "Course Fee Liquidity & Budget Evaluation (USD)",
+    "category": "Non-Cash Asset Exclusion & Combinatorial Expense Optimization",
+    "difficulty": "Very Hard",
+    "diagnostic_title": "Unrealized Portfolio Valuation Trap & Compound Multi-Event Budget Cut"
+  },
+  {
+    "task_id": "task_10",
+    "request_id": "request_25",
+    "user_id": "user_25",
+    "currency": "IDR",
+    "title": "Housing Deposit Multi-Currency Audit (IDR)",
+    "category": "Multi-Currency FX Ledger Reconciliation & Infeasibility Proof",
+    "difficulty": "Hard",
+    "diagnostic_title": "Cross-Currency USD-to-IDR Payroll Conversion & Failed Debit Exclusion"
+  }
+]

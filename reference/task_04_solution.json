@@ -1,0 +1,21 @@
+{
+  "task_id": "task_04",
+  "request_id": "request_06",
+  "expected_output": {
+    "request_id": "request_06",
+    "amount_safe_to_pay": 603.82,
+    "affordability_status": "affordable_with_plan",
+    "recommended_payment_method": "full_payment",
+    "payment_plan": "2026-01-03:620.40",
+    "earliest_date_for_full_payment": "2026-01-15",
+    "spending_changes_needed": "stop:event_476",
+    "decision_explanation": "Apply stop:event_476, then pay EUR 620.40; the daily balance stays above EUR 800.00."
+  },
+  "currency": "EUR",
+  "requested_amount": 620.4,
+  "minimum_balance_to_keep": 800.0,
+  "audit_trail": "Reproducible day-by-day replay from 2026-01-03 through 2026-04-03, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is EUR 1,403.82 on 2026-01-13; the protected floor is EUR 800.00, so immediate safe amount is EUR 603.82. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is EUR 802.42.",
+  "diagnostic_title": "Temporary Payroll Reduction & Single Subscription Cancellation",
+  "failure_mechanism_tested": "Models either subtract the cancelled card authorization (event_557, EUR 66.00), fail to apply the temporary payroll reduction in message_04 (EUR 1,037.52 vs earlier EUR 1,441.00), or recommend waiting/installments instead of recognizing that stopping a single EUR 19.00 streaming subscription (event_476) makes full payment possible immediately on 2026-01-03.",
+  "expertise_required": "Personal financial planning & minimal-intervention budget restructuring: identifying when a sub-3% liquidity shortfall (EUR 16.58) can be resolved by cancelling a user-permitted stoppable subscription."
+}

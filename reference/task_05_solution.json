@@ -1,0 +1,21 @@
+{
+  "task_id": "task_05",
+  "request_id": "request_07",
+  "expected_output": {
+    "request_id": "request_07",
+    "amount_safe_to_pay": 86237.22,
+    "affordability_status": "affordable_with_plan",
+    "recommended_payment_method": "installments",
+    "payment_plan": "2024-09-12:68432|2024-10-10:68432|2024-11-07:68432",
+    "earliest_date_for_full_payment": "2024-10-23",
+    "spending_changes_needed": "none",
+    "decision_explanation": "Use 3 installments of INR 68,432.00; the daily balance stays above INR 93,000.00."
+  },
+  "currency": "INR",
+  "requested_amount": 197400.0,
+  "minimum_balance_to_keep": 93000.0,
+  "audit_trail": "Reproducible day-by-day replay from 2024-09-05 through 2024-12-04, using the forecast convention stated in the task. The lowest baseline end-of-day balance before the request payment is INR 179,237.22 on 2024-09-20; the protected floor is INR 93,000.00, so immediate safe amount is INR 86,237.22. The selected schedule and permitted spending changes were replayed across all 91 dates; its lowest end-of-day balance is INR 93,627.72.",
+  "diagnostic_title": "Employer Payday Shift (15th to 23rd) & Installment Cash-Flow Smoothing",
+  "failure_mechanism_tested": "Models infer payday on the 15th from 5 months of historical event_date records (event_558..event_578) and ignore message_05 (which shifts salary settlement to the 23rd of the month), causing them to miscalculate both amount_safe_to_pay during the 8-day mid-month trough and earliest_date_for_full_payment (2024-10-23 vs 2024-10-15).",
+  "expertise_required": "Treasury cash-positioning: modeling settlement-date shifts where outflows cluster between the 4th and 15th while inflow is delayed to the 23rd."
+}
